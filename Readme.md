@@ -16,10 +16,10 @@ __The world's fastest game!__
 
 **HOW FAST ARE YOU?**
 
-Over 40 seconds……Cubie Newbie
-30 – 40 seconds……..Tumbler in Training
-20 – 30 seconds……..Rockin’ Roller
-10 – 20 seconds………Dice Dragon
-Under 10 seconds…..TENZI Master!
+- Over 40 seconds……Cubie Newbie
+- 30 – 40 seconds……..Tumbler in Training
+- 20 – 30 seconds……..Rockin’ Roller
+- 10 – 20 seconds………Dice Dragon
+- Under 10 seconds…..TENZI Master!
 
 And just in case you’re wondering, the odds of getting all ten dice to land on one number in one roll are **_10,077,697_** to **1**.
