@@ -85,7 +85,7 @@ const notify=()=>toast("You Made It")
       />)
   
   return (
-      <div>
+      <div className="container">
         <main>
         {tenzies && <Confetti />}
         

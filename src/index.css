@@ -1,5 +1,5 @@
 * {
-  box-sizing: border-box;
+  box-sizing:content-box;
 }
 
 body {
@@ -173,6 +173,11 @@ main {
     font-size: 10px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    justify-content: left;
+    justify-content: right;
     display: flex;
+  }
+  .container{
+    max-width: 800px;
+    align-content: center;
+    background-color: brown;
   }
