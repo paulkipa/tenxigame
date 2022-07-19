@@ -163,4 +163,9 @@ main {
     font-size: 36px;
     font-family: 'Century Gothic', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    margin: auto;
+  }
+  img{
+    width: 30px;
+    padding-top: 5px;
   }
