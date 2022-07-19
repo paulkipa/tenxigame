@@ -169,3 +169,10 @@ main {
     width: 30px;
     padding-top: 5px;
   }
+  .footer{
+    font-size: 10px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: left;
+    display: flex;
+  }

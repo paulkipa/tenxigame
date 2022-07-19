@@ -85,7 +85,8 @@ const notify=()=>toast("You Made It")
       />)
   
   return (
-      <main>
+      <div>
+        <main>
         {tenzies && <Confetti />}
         
         <img src="/vite.svg" alt=""/>
@@ -97,6 +98,9 @@ const notify=()=>toast("You Made It")
           <div>
             <button onClick={rollDice} className="roll-dice">{tenzies? "New Game":"Roll The Dice"}</button>
           </div>
+          
       </main>
+          <span className="footer">Kipa @2022</span>
+      </div>
   )
 }
