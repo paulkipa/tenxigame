@@ -2,7 +2,8 @@ import React from "react";
 import Die from "./components/Die";
 import { nanoid } from "nanoid";
 import Confetti from "react-confetti";
-
+import { toast } from "react-toastify";
+import 'react-toastify'
 
 /**
  * Challenge:
@@ -19,6 +20,7 @@ import Confetti from "react-confetti";
  export default function App() {
   const [dice, setDice] = React.useState(allNewDice())
   const [tenzies, setTenzies]=React.useState(false)
+const notify=()=>toast("You Made It")
 
   React.useEffect(()=>{
     //console.log("Dice State Changed")
@@ -27,7 +29,10 @@ import Confetti from "react-confetti";
     const allSameValue=dice.every(die=>die.value===firstValue)
     if(allHeld && allSameValue){
       setTenzies(true)
+      {notify}
       console.log("You Won!")
+      alert("Game Finished. Start A New Game")
+      
     }
 
 
@@ -82,6 +87,7 @@ import Confetti from "react-confetti";
   return (
       <main>
         {tenzies && <Confetti />}
+        
         <img src="/vite.svg" alt=""/>
         <h1 className="title">Tenzies</h1>
             <p className="instructions">Roll until all dice are the same. Click each die to freeze it at its current value between rolls.</p>
